@@ -1,0 +1,26 @@
+
+.weatherForm {
+  position: absolute;
+  right: 40%;
+  background-color: #61d1b5;
+  width: 20%;
+  border: 1px solid rgb(20, 138, 79);
+  margin-top: 3%;
+}
+
+.weatherForm2 {
+  position: absolute;
+  right: 10%;
+  background-color: #84cf22;
+  width: 20%;
+  border: 1px solid rgb(185, 174, 235);
+  margin-top: 3%;
+}
+
+.but2 {
+  display: flex;
+}
+
+.but1 {
+  display: flex;
+}
