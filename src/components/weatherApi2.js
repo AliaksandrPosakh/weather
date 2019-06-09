@@ -19,7 +19,7 @@ class WeatherApi2 extends Component {
     getWeathersData() {
         const weatherCityList = api.readFromLocalStorage(constans.LOCAL_STORAGE_KEY2);
         let time = new Date().getHours();
-        const newDataList = weatherCityList.filter(item => time - item.date < 1);
+        const newDataList = weatherCityList.filter(item => time - item.date < 2);
         console.log(newDataList);
         let x = newDataList.find(item => item.city.toLowerCase() === this.props.city.toLowerCase());
         if(x != undefined) {
